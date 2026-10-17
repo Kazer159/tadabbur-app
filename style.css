@@ -1,0 +1,10 @@
+:root { --papier: #FBF6EC; --encre: #3B2A1A; --accent: #8A5A1E; --filet: #D7B06A; }
+@media (prefers-color-scheme: dark) { :root { --papier: #1E1812; --encre: #EFE6D6; --accent: #D7B06A; --filet: #8A5A1E; } }
+body { margin: 0; background: var(--papier); color: var(--encre); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 640px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 2em; margin: 0; }
+.ar { font-size: 1.4em; color: var(--accent); margin: 0 0 8px; }
+hr { border: 0; border-top: 3px double var(--filet); margin: 24px 0; }
+h2 { font-size: 1.15em; color: var(--accent); margin-top: 32px; }
+a { color: var(--accent); }
+.pied { font-size: 0.85em; opacity: 0.75; margin-top: 48px; }
